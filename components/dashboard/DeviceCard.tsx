@@ -23,7 +23,7 @@ export default function DeviceCard() {
         <div className="flex items-center gap-4">
           <div
             className="radial-progress text-primary"
-            style={{ "--value": 70, "--size": "70px" } as any}
+            style={{ "--value": 70, "--size": "70px" } as React.CSSProperties}
           >
             🌡️
           </div>
@@ -38,7 +38,7 @@ export default function DeviceCard() {
         <div className="flex items-center gap-4">
           <div
             className="radial-progress text-secondary"
-            style={{ "--value": 55, "--size": "70px" } as any}
+            style={{ "--value": 55, "--size": "70px" } as React.CSSProperties}
           >
             💧
           </div>
